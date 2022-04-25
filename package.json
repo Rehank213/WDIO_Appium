@@ -1,0 +1,23 @@
+{
+  "name": "wdio_appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rehan Khan",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.19.5",
+    "appium": "^2.0.0-beta.30"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^7.19.5",
+    "@wdio/local-runner": "^7.19.5",
+    "@wdio/mocha-framework": "^7.19.5",
+    "@wdio/spec-reporter": "^7.19.5",
+    "appium-uiautomator2-driver": "^2.0.7",
+    "appium-xcuitest-driver": "^4.3.7"
+  }
+}

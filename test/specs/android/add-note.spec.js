@@ -18,6 +18,7 @@ describe("dest", () => {
 
     await driver.back();
     await driver.back();
+    await driver.pause(1000);
 
     await expect(
       $(
